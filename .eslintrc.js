@@ -9,7 +9,7 @@ module.exports = {
     'plugin:typescript-sort-keys/recommended',
     'plugin:prettier/recommended',
   ],
-  plugins: ['prettier', 'simple-import-sort', 'sort-keys', 'plugin:xstate/recommended'],
+  plugins: ['prettier', 'simple-import-sort', 'sort-keys'],
   rules: {
     'prettier/prettier': 'error',
     semi: 'off',
